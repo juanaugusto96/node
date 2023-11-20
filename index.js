@@ -60,7 +60,6 @@ class ProductManager {
       return product;
     }
   }
-  
   const manager = new ProductManager();
   
   manager.addProduct("Producto 1", "Descripción del producto 1", 10.99, "imagen1.jpg", "P001", 50);
